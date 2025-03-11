@@ -40,7 +40,7 @@ class Game():
     def get_move(self):
         while True:
             move = input(f"Enter a valid move (example: A1): ").lower()
-            if move in self.board and self.board[move] is None:
+            if move in self.board and self.board[move] == None:
                 self.board[move] = self.turn
                 return  
             else:
