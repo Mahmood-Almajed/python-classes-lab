@@ -86,7 +86,7 @@ class Game():
             self.turn='X'    
 
     def play_game(self):
-        print("Shall we play a game?")
+        print("Shall we play a game??")
         while self.winner == None and self.tie==False:
             self.render()
             self.get_move()
@@ -95,3 +95,4 @@ class Game():
 
 game_instance = Game()
 game_instance.play_game()
+
